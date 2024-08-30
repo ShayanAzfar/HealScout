@@ -20,7 +20,7 @@ html {
     url(Img/banner03.gif);
   background-color: #91cecf;
   background-position: center;
-  background-size: 200%;
+  background-size: 199%;
   position: relative;
 }
 nav {
@@ -112,4 +112,38 @@ nav img {
   margin: 10px 0 40px;
   font-size: 14px;
   color: #fff;
+}
+
+.hero-srch {
+  width: 600px;
+  background: #fff;
+  margin: 0px auto 0;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+input {
+  flex: 1;
+  height: 50px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  color: #333;
+}
+button.bx-srch-icon {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  width: 25px;
+  color: #555;
+  font-size: 22px;
+  cursor: pointer;
+}
+::placeholder {
+  color: #555;
 }
