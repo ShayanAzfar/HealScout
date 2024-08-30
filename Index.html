@@ -17,24 +17,44 @@
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
 
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <section id="header">
-      <a href="index.html">
-        <img src="./Img/HealScout01.webp" class="logo" alt="HealScout" />
-      </a>
-      <!-- Search Bar -->
-      <form id="search-form" action="search_results.html" method="GET">
-        <input
-          type="text"
-          id="search-bar"
-          name="query"
-          placeholder="Search for symptoms..."
-          required />
-        <button type="submit">Search</button>
-      </form>
+    <section class="header">
+      <nav>
+        <a href="./Index.html"><img src="./Img/HealScout_BG02.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="./Index.html">HOME</a></li>
+            <li><a href="./About.html">ABOUT</a></li>
+            <li><a href="./Contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <button class="btn">
+          <img
+            src="Img/srch-icon.png"
+            alt="landing on the search page, where you can easily search locations for the nearby clinics." />
+          SEARCH
+        </button>
+      </nav>
+      <div class="text-box">
+        <h1>
+          <span></span>
+          Your
+          <br />
+          Way to Better Health.
+        </h1>
+        <p>
+          Helps you find nearby clinics and hospitals based on your symptoms,
+          making it easier to connect with the right healthcare providers when
+          you need them most.
+        </p>
+      </div>
     </section>
   </body>
 </html>
